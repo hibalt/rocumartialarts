@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h2, main h3, main h4 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Join Program Section */
+.join-program {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.join-program h2 {
+    margin-top: 0;
+}
+
+.join-program p {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.join-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #218838;
+}
+
+/* Table Styles */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.pricing-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Additional Styling */
+.pricing-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main, .table-container {
+        padding: 15px;
+    }
+
+    .pricing-table th, .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+	
+	
+/* Table Styles */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.pricing-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Additional Styling */
+.pricing-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main, .table-container {
+        padding: 15px;
+    }
+
+    .pricing-table th, .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+}
+

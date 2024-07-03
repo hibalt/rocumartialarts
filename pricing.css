@@ -1,0 +1,118 @@
+/* Table Styles */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.pricing-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Additional Styling */
+.pricing-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main, .table-container {
+        padding: 15px;
+    }
+
+    .pricing-table th, .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+	
+	
+/* Table Styles */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.pricing-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Additional Styling */
+.pricing-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main, .table-container {
+        padding: 15px;
+    }
+
+    .pricing-table th, .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+}
